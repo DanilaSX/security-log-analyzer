@@ -14,15 +14,15 @@ The project is based on information from the Nextwork website. The main objectiv
 
 ## **Technologies**
 
-##### Python
+Python
 
-##### Regex
+Regex
 
-##### JSON
+JSON
 
-##### Git
+Git
 
-##### Github
+Github
 
 ## **Project**
 
