@@ -1,0 +1,55 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-11-07 15:23:05",
+    "log_file_analyzed": "sample_auth.log",
+    "total_failed_logins": 57
+  },
+  "summary": {
+    "total_alerts": 3,
+    "critical": 1,
+    "high": 1,
+    "medium": 1
+  },
+  "alerts": [
+    {
+      "source_ip": "192.168.1.100",
+      "attempt_count": 31,
+      "severity": "CRITICAL",
+      "targeted_users": [
+        "deploy",
+        "test",
+        "ubuntu",
+        "root",
+        "admin"
+      ],
+      "first_seen": "Jun  4 22:14:15",
+      "last_seen": "Jun  4 22:15:30"
+    },
+    {
+      "source_ip": "10.0.0.55",
+      "attempt_count": 16,
+      "severity": "HIGH",
+      "targeted_users": [
+        "deploy",
+        "ubuntu",
+        "root",
+        "admin"
+      ],
+      "first_seen": "Jun  4 22:20:01",
+      "last_seen": "Jun  4 22:20:38"
+    },
+    {
+      "source_ip": "203.0.113.42",
+      "attempt_count": 7,
+      "severity": "MEDIUM",
+      "targeted_users": [
+        "test",
+        "root",
+        "admin",
+        "user"
+      ],
+      "first_seen": "Jun  4 22:30:01",
+      "last_seen": "Jun  4 22:30:15"
+    }
+  ]
+}
